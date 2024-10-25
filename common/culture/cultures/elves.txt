@@ -1,0 +1,788 @@
+﻿minyar = {
+	color = { 122 204 102 }
+	#	color = hsv { 0.25 0.5 0.75 }
+	created = 2.8.1
+
+	history_loc_override = cuivienen_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_quendi
+	language = language_quenya
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_tribe_unity
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_quenya
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = vanyar_ethnicity
+	}
+}
+
+tatyar = {
+	color = { 122 204 102 }
+	created = 2.8.1
+
+	history_loc_override = cuivienen_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_quendi
+	language = language_quenya
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_artisans
+		tradition_hard_working
+	}
+	
+	name_list = name_list_quenya
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = noldor_ethnicity
+	}
+}
+
+nelyar = {
+	color = { 122 204 102 }
+	created = 2.8.1
+
+	history_loc_override = cuivienen_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_quendi
+	language = language_quenya
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_forest_folk
+		tradition_hunters
+	}
+	
+	name_list = name_list_quenya
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = teleri_ethnicity
+	}
+}
+
+vanyar = {
+	color = { 204 255 255 }
+	#	color = hsv { 0.3 0.55 0.8 }
+	created = 2.9.1
+	parents = { minyar }
+
+	history_loc_override = valinor_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_calaquendi
+	language = language_quenya
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_faith_bound
+		tradition_philosopher_culture
+		tradition_zealous_people
+		tradition_isolationist
+		#tradition_noldor_maa
+	}
+	
+	name_list = name_list_quenya
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { noldor_building_gfx elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = vanyar_ethnicity
+	}
+}
+
+noldor = {
+	color = { 0 1 85 }
+	#	color = hsv { 0.25 0.5 0.75 }
+	created = 2.9.1
+	parents = { tatyar }
+
+	history_loc_override = valinor_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_calaquendi
+	language = language_sindarin # On account of the overwhelming and vast majority of all the Noldor in our area of concern (Middle-earth since the dawn of the First Age) speaking Sindarin over Quenya
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_legendary_artisans
+		tradition_hard_working
+		tradition_metal_craftsmanship
+		tradition_martial_admiration
+		tradition_miners
+		#tradition_noldor_maa
+	}
+	
+	name_list = name_list_sindarin
+	
+	coa_gfx = { noldor_coa_gfx elven_group_coa_gfx }
+	building_gfx = { noldor_building_gfx elven_building_gfx western_building_gfx }
+	clothing_gfx = { noldor_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = noldor_ethnicity
+	}
+}
+
+teleri = {
+	color = { 204 204 255 }
+	#	color = hsv { 0.25 0.5 0.75 }
+	created = 2.9.1
+	parents = { nelyar }
+
+	history_loc_override = valinor_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_calaquendi
+	language = language_telerin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_seafaring
+		tradition_music_theory
+		tradition_fishermen
+		tradition_maritime_mercantilism
+		#tradition_sindar_maa
+	}
+	
+	name_list = name_list_quenya
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { noldor_building_gfx elven_building_gfx western_building_gfx }
+	clothing_gfx = { falathrim_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = teleri_ethnicity
+	}
+}
+
+#falmari = { # Elves of the Teleri who made it to Valinor, redundant - use 'Teleri' for those who made it to Valinor!
+#	color = { 160 178 89 }
+##	color = hsv { 0.2 0.45 0.65 }
+#	created = 2.9.1
+#	parents = { nelyar }
+#	
+#	ethos = ethos_courtly
+#	heritage = heritage_calaquendi
+#	language = language_quenya
+#	martial_custom = martial_custom_equal
+#	traditions = {
+#		tradition_seafaring
+#		tradition_music_theory
+#		tradition_fishermen
+#		tradition_maritime_mercantilism
+#	}
+#	
+#	name_list = name_list_elven
+#	
+#	coa_gfx = { elven_group_coa_gfx }
+#	building_gfx = { elven_building_gfx western_building_gfx }
+#	clothing_gfx = { elven_clothing_gfx }
+#	unit_gfx = { noldor_unit_gfx }
+#	
+#	ethnicities = {
+#		1 = elves_ethnicity
+#	}
+#}
+
+sindar = {
+	color = { 83 152 20 }
+	#	color = hsv { 0.56 0.55 0.4 }
+	created = 2.9.2
+	parents = { teleri }
+
+	history_loc_override = sindar_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_lomiquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_pastoralists
+		tradition_music_theory
+		tradition_fishermen
+		tradition_forest_folk
+		#tradition_sindar_maa
+	}
+	
+	name_list = name_list_sindarin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { noldor_building_gfx elven_building_gfx western_building_gfx }
+	clothing_gfx = { sindar_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = sindar_ethnicity
+	}
+}
+
+#doriathrim = { # Frankly redundant, 'Sindar' works for those of Doriath
+#	color = { 61 51 102 }
+##	color = hsv { 0.65 0.5 0.35 }
+#	created = 2.9.10
+#	parents = { sindar }
+#	
+#	ethos = ethos_courtly
+#	heritage = heritage_lomiquendi
+#	language = language_sindarin
+#	martial_custom = martial_custom_equal
+#	traditions = {
+#		tradition_city_keepers
+#		tradition_music_theory
+#		tradition_festivities
+#		tradition_forest_folk
+#	}
+#	
+#	name_list = name_list_elven
+#	
+#	coa_gfx = { elven_group_coa_gfx }
+#	building_gfx = { elven_building_gfx western_building_gfx }
+#	clothing_gfx = { elven_clothing_gfx }
+#	unit_gfx = { noldor_unit_gfx }
+#	
+#	ethnicities = {
+#		1 = elves_ethnicity
+#	}
+#}
+
+falathrim = {
+	color = { 0 152 122 }
+	#	color = hsv { 0.65 0.5 0.35 }
+	created = 2.9.10
+	parents = { sindar }
+
+	history_loc_override = falathrim_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_lomiquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_seafaring
+		tradition_music_theory
+		tradition_fishermen
+		tradition_loyal_soldiers
+		#tradition_sindar_maa
+	}
+	
+	name_list = name_list_sindarin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { noldor_building_gfx elven_building_gfx western_building_gfx }
+	clothing_gfx = { falathrim_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = sindar_ethnicity
+	}
+}
+
+#eglath = { # Redundant, use Falathrim for this group
+#	color = { 61 51 102 }
+##	color = hsv { 0.65 0.5 0.35 }
+#	created = 2.9.10
+#	parents = { sindar }
+#	
+#	ethos = ethos_stoic
+#	heritage = heritage_lomiquendi
+#	language = language_sindarin
+#	martial_custom = martial_custom_equal
+#	traditions = {
+#		tradition_seafaring
+#		tradition_music_theory
+#		tradition_fishermen
+#		tradition_loyal_soldiers
+#	}
+#	
+#	name_list = name_list_elven
+#	
+#	coa_gfx = { elven_group_coa_gfx }
+#	building_gfx = { elven_building_gfx western_building_gfx }
+#	clothing_gfx = { elven_clothing_gfx }
+#	unit_gfx = { noldor_unit_gfx }
+#	
+#	ethnicities = {
+#		1 = elves_ethnicity
+#	}
+#}
+
+mithrim = { # Sindar of North Beleriand, absorbed into the Noldor
+	color = { 255 204 127 }
+	#	color = hsv { 0.05 0.5 0.95 } 
+	created = 2.9.10
+	parents = { sindar }
+
+	history_loc_override = mithrim_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_lomiquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_pastoralists
+		tradition_xenophilic
+		tradition_hunters
+		tradition_welcoming
+		#tradition_sindar_maa
+	}
+	
+	name_list = name_list_sindarin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { noldor_building_gfx elven_building_gfx western_building_gfx }
+	clothing_gfx = { sindar_clothing_gfx}
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = sindar_ethnicity
+	}
+}
+
+nandor = {
+	color = { 25 51 51 }
+	#	color = hsv { 0.45 0.45 0.2 }
+	created = 2.9.2
+	parents = { teleri }
+
+	history_loc_override = nandor_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_lomiquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_forest_folk
+		tradition_forest_fighters
+		tradition_medicinal_plants
+		tradition_festivities
+		#tradition_galadhrim_maa
+	}
+	
+	name_list = name_list_nandorin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { sindar_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = teleri_ethnicity
+	}
+}
+
+laiquendi = {
+	color = { 0 77 0 }
+	#	color = hsv { 0.77 0.88 0.38 }
+	created = 2.9.30
+	parents = { nandor sindar }
+
+	history_loc_override = laiquendi_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_lomiquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_forest_folk
+		tradition_forest_fighters
+		tradition_medicinal_plants
+		tradition_hidden_cities
+		#tradition_sindar_maa
+	}
+	
+	name_list = name_list_nandorin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { sindar_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = teleri_ethnicity
+		1 = sindar_ethnicity
+	}
+}
+
+sirrandrai = { # Nandor of Eriador, particularly southern Arthedain. After the War of Sauron and the Elves, Dúnedain increasingly settled their land and they migrated into Lindon.
+	color = { 0 77 10 }
+	#	color = hsv { 0.77 0.88 0.38 }
+	created = 2.9.30
+	parents = { nandor }
+
+	history_loc_override = sirrandrai_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_lomiquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_forest_folk
+		tradition_forest_fighters
+		tradition_medicinal_plants
+		tradition_sirgalan_exiles
+	}
+	
+	name_list = name_list_nandorin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { noldor_building_gfx elven_building_gfx western_building_gfx }
+	clothing_gfx = { sindar_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = teleri_ethnicity
+		1 = sindar_ethnicity
+	}
+}
+
+
+silvan = {
+	color = { 85 10 102 }
+	#color = hsv { 0.77 0.88 0.38 }
+	created = 2.9.4
+	parents = { nandor }
+
+	history_loc_override = silvan_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_lomiquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_forest_folk
+		tradition_adaptive_skirmishing
+		tradition_sacred_hunts
+		tradition_festivities
+		#tradition_greenwood_maa
+	}
+	
+	name_list = name_list_nandorin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { lasgalendrim_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = wood_elf_ethnicity
+	}
+}
+
+lasgalendrim = {
+	color = { 85 20 102 }
+#	color = hsv { 0.77 0.80 0.38 }
+	created = 1444.1.1
+	parents = { silvan sindar }
+
+	history_loc_override = lasgalendrim_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_lomiquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_forest_folk
+		tradition_forest_fighters
+		tradition_sacred_hunts
+		tradition_festivities
+		#tradition_greenwood_maa
+	}
+	
+	name_list = name_list_sindarin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { lasgalendrim_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = wood_elf_ethnicity
+	}
+}
+
+galadhrim = {
+	color = { 36 20 102 }
+#	color = hsv { 0.70 0.80 0.38 }
+	created = 1245.1.1
+	parents = { nandor sindar }
+
+	history_loc_override = galadhrim_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_lomiquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_forest_folk
+		tradition_forbearing
+		tradition_isolationist
+		tradition_charitable
+		tradition_artisans
+		#tradition_galadhrim_maa
+	}
+	
+	name_list = name_list_sindarin
+	
+	coa_gfx = { galadhrim_coa_gfx elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { sindar_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = wood_elf_ethnicity
+	}
+}
+
+avari = {
+	color = { 45 25 127 }
+#	color = hsv { 0.70 0.80 0.45 }
+	created = 2.9.1
+	parents = { tatyar nelyar }
+
+	history_loc_override = avari_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_moriquendi
+	language = language_avarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_modest
+		tradition_storytellers
+		tradition_isolationist
+		tradition_poetry
+	}
+	
+	name_list = name_list_nandorin
+	
+	coa_gfx = { avari_coa_gfx elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = telyarin_avari_ethnicity
+	}
+}
+
+penni = { # Descended from those of Tareg's Host that settled in the Emyn Rhun, primarily of Nelyarin Avari descent
+	color = { 50 40 120 }
+#	color = hsv { 0.70 0.80 0.45 }
+	created = 2.9.3
+	parents = { avari }
+
+	history_loc_override = penni_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_moriquendi
+	language = language_avarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_modest
+		tradition_storytellers
+		tradition_isolationist
+		tradition_poetry
+		tradition_nelyarin_heritage
+	}
+	
+	name_list = name_list_nandorin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = nelyarin_avari_ethnicity
+	}
+}
+
+cuind = { # Southern Avari
+	color = { 80 60 140 }
+#	color = hsv { 0.70 0.80 0.45 }
+	created = 2.9.3
+	parents = { avari }
+
+	history_loc_override = cuind_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_moriquendi
+	language = language_avarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_isolationist
+		tradition_hidden_cities
+		tradition_medicinal_plants
+		tradition_ancient_wanderers
+		tradition_tatyarin_heritage
+	}
+	
+	name_list = name_list_nandorin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = nelyarin_avari_ethnicity
+	}
+}
+
+kinnlai = { # The Avari of Mumakan, 
+	color = { 50 40 120 }
+	#color = hsv { 0.70 0.80 0.45 }
+	created = 2.9.3
+	parents = { avari }
+
+	history_loc_override = kinnlai_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_moriquendi
+	language = language_avarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_life_is_just_a_joke
+		tradition_warrior_monks
+		tradition_jungle_dwellers
+		tradition_nelyarin_heritage
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp1_trials_by_combat
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_warrior_culture
+	}
+	
+	# name_list = name_list_kinnlai
+	name_list = name_list_nandorin #PLACEHOLDER - Remove once above name list has been created
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = nelyarin_avari_ethnicity
+	}
+}
+
+kindi = { # The Avari of Southern Rhun/Khy 
+	color = { 50 40 120 }
+	#color = hsv { 0.70 0.80 0.45 }
+	created = 2.9.3
+	parents = { avari }
+
+	history_loc_override = kindi_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_moriquendi
+	language = language_avarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_modest
+		tradition_forest_folk
+		tradition_isolationist
+		tradition_poetry
+		tradition_nelyarin_heritage
+	}
+	
+	# name_list = name_list_kindi
+	name_list = name_list_nandorin #PLACEHOLDER - Remove once above name list has been created
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = nelyarin_avari_ethnicity
+	}
+}
+
+hwenti = { # The Avari of Urd and the North
+	color = { 50 40 120 }
+	#color = hsv { 0.70 0.80 0.45 }
+	created = 2.9.3
+	parents = { avari }
+
+	history_loc_override = hwenti_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_moriquendi
+	language = language_avarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_modest
+		tradition_storytellers
+		tradition_isolationist
+		tradition_poetry
+		tradition_nelyarin_heritage
+	}
+	
+	# name_list = name_list_hwenti
+	name_list = name_list_nandorin #PLACEHOLDER - Remove once above name list has been created
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = nelyarin_avari_ethnicity
+	}
+}
+
+windan = { # Southern Avari
+	color = { 80 60 140 }
+	#color = hsv { 0.70 0.80 0.45 }
+	created = 2.9.3
+	parents = { avari }
+
+	history_loc_override = windan_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_moriquendi
+	language = language_avarin
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_isolationist
+		tradition_hidden_cities
+		tradition_medicinal_plants
+		tradition_ancient_wanderers
+		tradition_tatyarin_heritage
+	}
+	
+	# name_list = name_list_windan
+	name_list = name_list_nandorin #PLACEHOLDER - Remove once above name list has been created
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { noldor_unit_gfx }
+	
+	ethnicities = {
+		1 = nelyarin_avari_ethnicity
+	}
+}

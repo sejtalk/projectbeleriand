@@ -1,0 +1,36 @@
+#k_maghreb
+##d_canarias ###################################
+###c_canarias
+3 = {		#GRAN CANARIA
+	culture = baranis
+	religion = west_african_pagan
+	holding = tribal_holding
+}
+4 = {		#GRAN CANARIA
+	holding = none
+}
+5 = {		#GRAN CANARIA
+	culture = baranis
+	religion = west_african_pagan
+	holding = tribal_holding
+}
+6 = {		#GRAN CANARIA
+	holding = none
+}
+7 = {		#GRAN CANARIA
+	holding = none
+}
+8 = {		#GRAN CANARIA
+	holding = none
+}
+9 = {		#GRAN CANARIA
+	culture = baranis
+	religion = west_african_pagan
+	holding = tribal_holding
+}
+10 = {		#GRAN CANARIA
+	holding = none
+}
+11 = {		#GRAN CANARIA
+	holding = none
+}

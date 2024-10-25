@@ -1,0 +1,239 @@
+﻿haruze = {
+	color = { 209 105 0 }
+	created = 2470.1.1
+	parents = { apysaic }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_northern_apysaic
+	language = language_northern_apysaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_only_the_strong
+		tradition_warriors_of_the_dry
+		tradition_court_eunuchs
+		tradition_by_the_sword
+		tradition_eye_for_an_eye
+	}
+	
+	name_list = name_list_northern_apysaic
+	
+	coa_gfx = { haradrim_group_tribal_coa_gfx haradrim_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { north_haradrim_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		1 = haradrim_ethnicity
+	}
+}
+
+corsair = {
+	color = { 220 160 50 }
+	created = 5600.1.1
+	parents = { haruze umbaredain }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_northern_apysaic
+	language = language_westron_south 
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring
+		tradition_corsairs_of_umbar
+		tradition_quarrelsome
+		tradition_warriors_by_merit
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+	}
+	
+	name_list = name_list_umbarean
+	
+	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { south_haradrim_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+	ethnicities = {
+		80 = haradrim_ethnicity
+		10 = umbarean_ethnicity
+	}
+}
+
+sakalai = {
+	#color = { 222 136 75 }
+	color = { 217 161 65 }
+	created = 2400.1.1
+	parents = { apysaic danan_lin }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_northern_apysaic
+	language = language_northern_apysaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hill_dwellers
+		tradition_tribe_unity
+		tradition_welcoming
+		tradition_fishermen
+	}
+	
+	name_list = name_list_northern_apysaic
+	
+	coa_gfx = { haradrim_group_tribal_coa_gfx haradrim_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { north_haradrim_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		1 = haradrim_ethnicity
+	}
+}
+
+karrani = { # old sister-culture of haruze, numenorean buffer tributaries, between coast of umbar and dune sea
+	color = { 204 169 29 }
+	created = 2650.1.1
+	parents = { apysaic }
+	
+	ethos = ethos_stoic
+	heritage = heritage_northern_apysaic
+	language = language_northern_apysaic
+	martial_custom = martial_custom_male_only
+	traditions = { #wip
+		tradition_sorcerous_metallurgy
+		tradition_warriors_of_the_dry
+		tradition_tribe_unity
+		tradition_zealous_people
+	}
+	
+	name_list = name_list_northern_apysaic
+	
+	coa_gfx = { haradrim_group_tribal_coa_gfx haradrim_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { north_haradrim_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		1 = haradrim_ethnicity
+	}
+}
+
+chelkari = {
+	color = { 240 110 30 }
+	created = 5844.1.1
+	parents = { haruze }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_northern_apysaic
+	language = language_northern_apysaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_collective_lands
+		tradition_court_eunuchs
+		tradition_zealous_people
+		tradition_dryland_dwellers
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_fierce_independence
+		requires_dlc_flag = legacy_of_persia
+	}
+	
+	name_list = name_list_northern_apysaic
+	
+	coa_gfx = { haradrim_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { north_haradrim_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		1 = haradrim_ethnicity
+	}
+}
+
+pezarsani = {
+	color = { 210 83 1 }
+	created = 5200.1.1
+	parents = { haruze }
+	
+	ethos = ethos_communal
+	heritage = heritage_northern_apysaic
+	language = language_northern_apysaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_only_the_strong
+		tradition_adaptive_skirmishing
+		tradition_court_eunuchs
+		tradition_dryland_dwellers
+	}
+	
+	name_list = name_list_northern_apysaic
+	
+	coa_gfx = { haradrim_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { north_haradrim_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		1 = haradrim_ethnicity
+	}
+}
+
+lurmsakari = {
+	color = { 224 91 38 }
+	created = 4315.1.1
+	parents = { apysaic }
+	
+	ethos = ethos_stoic
+	heritage = heritage_northern_apysaic
+	language = language_northern_apysaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_loyal_soldiers
+		tradition_tribe_unity
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+	}
+	
+	name_list = name_list_northern_apysaic
+	
+	coa_gfx = { haradrim_group_coa_gfx }
+	building_gfx = { iranian_building_gfx mena_building_gfx }
+	clothing_gfx = { north_haradrim_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		1 = haradrim_ethnicity
+	}
+}
+
+siaken = {
+	color = { 160 55 0 }
+	created = 6210.1.1
+	parents = { lurmsakari arysisani }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_northern_apysaic
+	language = language_northern_apysaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_philosopher_culture
+		tradition_pacifism
+	}
+	
+	name_list = name_list_northern_apysaic
+	
+	coa_gfx = { haradrim_group_coa_gfx }
+	building_gfx = { iranian_building_gfx mena_building_gfx }
+	clothing_gfx = { north_haradrim_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		1 = haradrim_ethnicity
+	}
+}

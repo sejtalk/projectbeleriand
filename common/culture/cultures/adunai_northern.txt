@@ -1,0 +1,96 @@
+﻿black_numenorean = {
+	# Any non-faithful born in the colonies should use Black Numenorean culture
+	# Any non-faithful numenoreans born on Numenor should convert to Black Numenorean culture after the Downfall
+	color = { 33 46 46 }
+	created = 2942.1.1 # Founding of Pelargir
+	parents = { numenorean }
+
+	history_loc_override = numenorean_colonists_history_loc # Generic
+	
+	ethos = ethos_bellicose
+	heritage = heritage_northern_adunaic
+	language = language_adunaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_blacknumenorean_legacy
+		tradition_seafaring
+		tradition_slave_society
+		tradition_only_the_strong
+		tradition_ruling_caste
+	}
+	
+	name_list = name_list_adunaic
+	
+	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
+	building_gfx = { numenorean_building_gfx mediterranean_building_gfx }
+	clothing_gfx = { numenorean_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		1 = black_numenorean_ethnicity
+	}
+}
+
+old_umbarean = {
+	color = { 33 59 40 }
+	created = 4100.1.1
+	parents = { black_numenorean sakalai }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_northern_adunaic
+	language = language_adunaic_umbar
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_blacknumenorean_legacy
+		tradition_seafaring
+		tradition_slave_society
+		tradition_only_the_strong
+		tradition_hereditary_hierarchy
+	}
+	
+	name_list = name_list_adunaic
+	
+	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
+	building_gfx = { numenorean_building_gfx mediterranean_building_gfx }
+	clothing_gfx = { umbar_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		55 = black_numenorean_ethnicity
+		45 = umbarean_ethnicity
+	}
+}
+
+umbarean = {
+	color = { 67 76 30 }
+	# color = hsv { 0.2 0.6 0.3 }
+	created = 5600.1.1
+	parents = { umbaredain haruze }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_northern_adunaic		# with their hatred of gondor and its people, they shift to an adunaic identity
+	language = language_westron_south 			#language_adunaic_umbar - Westron has long since grown to dominate Umbar. Classical Adunaic is reserved for court usage
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_blacknumenorean_legacy
+		tradition_seafaring
+		tradition_corsairs_of_umbar
+		tradition_eye_for_an_eye
+		tradition_quarrelsome
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_state_ransoming
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_umbarean
+	
+	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
+	building_gfx = { numenorean_building_gfx mediterranean_building_gfx }
+	clothing_gfx = { umbar_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		1 = umbarean_ethnicity
+	}
+}

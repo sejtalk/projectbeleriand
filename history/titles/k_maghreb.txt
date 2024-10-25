@@ -1,0 +1,163 @@
+e_arda = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+}
+
+k_beleriand = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+}
+
+d_balar = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	767.1.1 = { government = tribal_government }
+	850.1.1 = {
+		holder = 166423
+	}
+	877.1.1 = {
+		holder = 166424
+	}
+	906.1.1 = {
+		holder = 166425
+	}
+	929.1.1 = {
+		holder = 166426
+	}
+	941.1.1 = {
+		holder = 166427
+	}
+	964.1.1 = {
+		holder = 166428
+	}
+	979.1.1 = {
+		holder = 166429
+	}
+	994.1.1 = {
+		holder = 166430
+	}
+	1010.1.1 = {
+		holder = 166431
+	}
+	1030.1.1 = {
+		holder = 166432
+	}
+	1066.1.1 = {
+		holder = 20842
+	}
+}
+
+c_balar_1 = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	767.1.1 = { government = tribal_government }
+	850.1.1 = {
+		holder = 166423
+	}
+	877.1.1 = {
+		holder = 166424
+	}
+	906.1.1 = {
+		holder = 166425
+	}
+	929.1.1 = {
+		holder = 166426
+	}
+	941.1.1 = {
+		holder = 166427
+	}
+	964.1.1 = {
+		holder = 166428
+	}
+	979.1.1 = {
+		holder = 166429
+	}
+	994.1.1 = {
+		holder = 166430
+	}
+	1010.1.1 = {
+		holder = 166431
+	}
+	1030.1.1 = {
+		holder = 166432
+	}
+	1066.1.1 = {
+		holder = 20842
+	}
+}
+c_balar_2 = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	767.1.1 = { government = tribal_government }
+	850.1.1 = {
+		holder = 166423
+	}
+	877.1.1 = {
+		holder = 166424
+	}
+	906.1.1 = {
+		holder = 166425
+	}
+	929.1.1 = {
+		holder = 166426
+	}
+	941.1.1 = {
+		holder = 166427
+	}
+	964.1.1 = {
+		holder = 166428
+	}
+	979.1.1 = {
+		holder = 166429
+	}
+	994.1.1 = {
+		holder = 166430
+	}
+	1010.1.1 = {
+		holder = 166431
+	}
+	1030.1.1 = {
+		holder = 166432
+	}
+	1066.1.1 = {
+		holder = 20842
+	}
+}
+c_balar_3 = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+	767.1.1 = { government = tribal_government }
+	850.1.1 = {
+		holder = 166423
+	}
+	877.1.1 = {
+		holder = 166424
+	}
+	906.1.1 = {
+		holder = 166425
+	}
+	929.1.1 = {
+		holder = 166426
+	}
+	941.1.1 = {
+		holder = 166427
+	}
+	964.1.1 = {
+		holder = 166428
+	}
+	979.1.1 = {
+		holder = 166429
+	}
+	994.1.1 = {
+		holder = 166430
+	}
+	1010.1.1 = {
+		holder = 166431
+	}
+	1030.1.1 = {
+		holder = 166432
+	}
+	1066.1.1 = {
+		holder = 20842
+	}
+}

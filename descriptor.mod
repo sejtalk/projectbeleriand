@@ -1,0 +1,18 @@
+version="0.01"
+tags={
+	"Total Conversion"
+	"Map"
+	"Historical"
+}
+name="First Age Project"
+replace_path="common/bookmark_portraits"
+replace_path="common/bookmarks"
+replace_path="common/religion/religions"
+replace_path="history/characters"
+replace_path="history/provinces"
+replace_path="history/province_mappings"
+replace_path="history/titles"
+replace_path="gfx/map/map_object_data/generated"
+replace_path="gfx/map/map_object_data"
+replace_path="map_data"
+supported_version="1.13.2"

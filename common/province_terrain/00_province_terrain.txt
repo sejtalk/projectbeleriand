@@ -1,0 +1,10 @@
+﻿default=plains
+3=plains
+4=plains
+5=plains
+6=plains
+7=plains
+8=plains
+9=plains
+10=plains
+11=plains

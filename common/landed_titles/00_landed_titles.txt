@@ -1,0 +1,659 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+e_arda = {
+	color = { 209 63 44 }
+	
+	capital = c_balar_1 # Canarias
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = culture:baranis
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+	
+	k_beleriand = {
+		color = { 196 36 18 }
+		
+		capital = c_balar_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_balar = {
+			color = { 42 127 201 }
+			
+			capital = c_balar_1 # Gran Canaria
+			
+			c_balar_1 = {
+				color = { 22 107 181 }
+				
+				b_balar_1 = {
+					province = 3
+					
+					color = { 22 107 181 }
+				}
+				b_balar_2 = {
+					province = 4
+					
+					color = { 52 117 101 }
+				}
+			}
+			c_balar_2 = {
+				color = { 92 143 11 }
+				
+				b_balar_3 = {
+					province = 5
+					
+					color = { 22 107 181 }
+				}
+				b_balar_4 = {
+					province = 6
+					
+					color = { 52 117 101 }
+				}
+				b_balar_5 = {
+					province = 7
+					
+					color = { 52 117 101 }
+				}
+				b_balar_6 = {
+					province = 8
+					
+					color = { 22 107 181 }
+				}
+			}
+			c_balar_3 = {
+				color = { 122 10 81 }
+				
+				b_balar_7 = {
+					province = 9
+					
+					color = { 52 117 101 }
+				}
+				b_balar_8 = {
+					province = 10
+					
+					color = { 52 117 101 }
+				}
+				b_balar_9 = {
+					province = 11
+					
+					color = { 52 117 101 }
+				}
+			}
+			c_balar_4 = {
+				color = { 122 10 81 }
+				
+				b_balar_10 = {
+					province = 12
+					
+					color = { 52 117 101 }
+				}
+			}
+		}
+	}
+	k_sirion = {
+		color = { 196 36 18 }
+		
+		capital = c_sirion_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_sirion = {
+			color = { 42 127 201 }
+			
+			capital = c_sirion_1 # Gran Canaria
+			
+			c_sirion_1 = {
+				color = { 22 107 181 }
+				
+				b_sirion_1 = {
+					province = 13
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_taur_im_duinath = {
+		color = { 196 36 18 }
+		
+		capital = c_taur_im_duinath_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_taur_im_duinath = {
+			color = { 42 127 201 }
+			
+			capital = c_taur_im_duinath_1 # Gran Canaria
+			
+			c_taur_im_duinath_1 = {
+				color = { 22 107 181 }
+				
+				b_taur_im_duinath_1 = {
+					province = 14
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_ossiriand = {
+		color = { 196 36 18 }
+		
+		capital = c_ossiriand_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_ossiriand = {
+			color = { 42 127 201 }
+			
+			capital = c_ossiriand_1 # Gran Canaria
+			
+			c_ossiriand_1 = {
+				color = { 22 107 181 }
+				
+				b_ossiriand_1 = {
+					province = 15
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_falas = {
+		color = { 196 36 18 }
+		
+		capital = c_falas_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_falas = {
+			color = { 42 127 201 }
+			
+			capital = c_falas_1 # Gran Canaria
+			
+			c_falas_1 = {
+				color = { 22 107 181 }
+				
+				b_falas_1 = {
+					province = 16
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_nargothrond = {
+		color = { 196 36 18 }
+		
+		capital = c_nargothrond_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_nargothrond = {
+			color = { 42 127 201 }
+			
+			capital = c_nargothrond_1 # Gran Canaria
+			
+			c_nargothrond_1 = {
+				color = { 22 107 181 }
+				
+				b_nargothrond_1 = {
+					province = 17
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_nevrast = {
+		color = { 196 36 18 }
+		
+		capital = c_nevrast_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_nevrast = {
+			color = { 42 127 201 }
+			
+			capital = c_nevrast_1 # Gran Canaria
+			
+			c_nevrast_1 = {
+				color = { 22 107 181 }
+				
+				b_nevrast_1 = {
+					province = 18
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_dor_lomin = {
+		color = { 196 36 18 }
+		
+		capital = c_dor_lomin_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_dor_lomin = {
+			color = { 42 127 201 }
+			
+			capital = c_dor_lomin_1 # Gran Canaria
+			
+			c_dor_lomin_1 = {
+				color = { 22 107 181 }
+				
+				b_dor_lomin_1 = {
+					province = 19
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_hithlum = {
+		color = { 196 36 18 }
+		
+		capital = c_hithlum_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_hithlum = {
+			color = { 42 127 201 }
+			
+			capital = c_hithlum_1 # Gran Canaria
+			
+			c_hithlum_1 = {
+				color = { 22 107 181 }
+				
+				b_hithlum_1 = {
+					province = 20
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_gondolin = {
+		color = { 196 36 18 }
+		
+		capital = c_gondolin_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_gondolin = {
+			color = { 42 127 201 }
+			
+			capital = c_gondolin_1 # Gran Canaria
+			
+			c_gondolin_1 = {
+				color = { 22 107 181 }
+				
+				b_gondolin_1 = {
+					province = 21
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_doriath = {
+		color = { 196 36 18 }
+		
+		capital = c_doriath_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_doriath = {
+			color = { 42 127 201 }
+			
+			capital = c_doriath_1 # Gran Canaria
+			
+			c_doriath_1 = {
+				color = { 22 107 181 }
+				
+				b_doriath_1 = {
+					province = 22
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_dorthonion = {
+		color = { 196 36 18 }
+		
+		capital = c_dorthonion_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_dorthonion = {
+			color = { 42 127 201 }
+			
+			capital = c_dorthonion_1 # Gran Canaria
+			
+			c_dorthonion_1 = {
+				color = { 22 107 181 }
+				
+				b_dorthonion_1 = {
+					province = 23
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_march_of_maedhros = {
+		color = { 196 36 18 }
+		
+		capital = c_march_of_maedhros_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_march_of_maedhros = {
+			color = { 42 127 201 }
+			
+			capital = c_march_of_maedhros_1 # Gran Canaria
+			
+			c_march_of_maedhros_1 = {
+				color = { 22 107 181 }
+				
+				b_march_of_maedhros_1 = {
+					province = 24
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_thargelion = {
+		color = { 196 36 18 }
+		
+		capital = c_thargelion_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_thargelion = {
+			color = { 42 127 201 }
+			
+			capital = c_thargelion_1 # Gran Canaria
+			
+			c_thargelion_1 = {
+				color = { 22 107 181 }
+				
+				b_thargelion_1 = {
+					province = 25
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_andram = {
+		color = { 196 36 18 }
+		
+		capital = c_andram_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_andram = {
+			color = { 42 127 201 }
+			
+			capital = c_andram_1 # Gran Canaria
+			
+			c_andram_1 = {
+				color = { 22 107 181 }
+				
+				b_andram_1 = {
+					province = 26
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_ard_galen = {
+		color = { 196 36 18 }
+		
+		capital = c_ard_galen_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_ard_galen = {
+			color = { 42 127 201 }
+			
+			capital = c_ard_galen_1 # Gran Canaria
+			
+			c_ard_galen_1 = {
+				color = { 22 107 181 }
+				
+				b_ard_galen_1 = {
+					province = 27
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_angband = {
+		color = { 196 36 18 }
+		
+		capital = c_angband_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_angband = {
+			color = { 42 127 201 }
+			
+			capital = c_angband_1 # Gran Canaria
+			
+			c_angband_1 = {
+				color = { 22 107 181 }
+				
+				b_angband_1 = {
+					province = 28
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+	k_ered_engrin = {
+		color = { 196 36 18 }
+		
+		capital = c_ered_engrin_1 # Canarias
+		
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
+		d_ered_engrin = {
+			color = { 42 127 201 }
+			
+			capital = c_ered_engrin_1 # Gran Canaria
+			
+			c_ered_engrin_1 = {
+				color = { 22 107 181 }
+				
+				b_ered_engrin_1 = {
+					province = 29
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+	}
+}
+
+# These titles cut hundreds of errors from logs. 
+e_hre = { landless = yes }
+e_byzantium = { landless = yes }
+e_roman_empire = { landless = yes }

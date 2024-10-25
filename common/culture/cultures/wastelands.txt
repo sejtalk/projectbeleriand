@@ -1,0 +1,30 @@
+﻿wastelands = {
+	color = wastelands
+	created = 1.1.1
+	
+	heritage = heritage_wastelands # No heritage events so this does not matter
+	language = language_wastelands	
+	ethos = ethos_spiritual
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_wastelands
+	}
+	
+	name_list = name_list_wastelands
+			
+	coa_gfx = { wastelands_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { wastelands_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	# ethnicities = { # Disabling to render characters for events
+	# 	10 = ethnicity_wastelands
+	# }
+	ethnicities = {
+		35 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		25 = caucasian_northern_brown_hair
+		25 = caucasian_northern_dark_hair
+	}
+
+}
