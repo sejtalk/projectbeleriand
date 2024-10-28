@@ -18,10 +18,10 @@ e_arda = {
 		}
 	}
 	
-	k_beleriand = {
-		color = { 196 36 18 }
+	k_balar = {
+		color = { 248 246 240 }
 		
-		capital = c_balar_1 # Canarias
+		capital = c_falassarn_1 # Canarias
 		
 		ai_primary_priority = {
 			if = {
@@ -34,73 +34,284 @@ e_arda = {
 			}
 		}
 		
+		d_tol_aessarn = {
+			color = { 254 239 199 }
+			
+			capital = c_tol_aessarn # Gran Canaria
+			
+			c_tol_aessarn = {
+				color = { 254 241 185 }
+				
+				b_tol_aessarn_1 = {
+					province = 21
+					
+					color = { 22 107 181 }
+				}
+				b_tol_aessarn_2 = {
+					province = 22
+					
+					color = { 52 117 101 }
+				}
+				b_tol_aessarn_3 = {
+					province = 23
+					
+					color = { 52 117 101 }
+				}
+			}
+		}
+		d_falassarn = {
+			color = { 231 232 245 }
+			
+			capital = c_falassarn_1 # Gran Canaria
+			
+			c_falassarn_1 = {
+				color = { 250 241 254 }
+				
+				b_falassarn_1 = {
+					province = 55
+					
+					color = { 22 107 181 }
+				}
+				b_falassarn_2 = {
+					province = 56
+					
+					color = { 52 117 101 }
+				}
+				b_falassarn_3 = {
+					province = 57
+					
+					color = { 52 117 101 }
+				}
+				b_falassarn_4 = {
+					province = 58
+					
+					color = { 22 107 181 }
+				}
+				b_falassarn_5 = {
+					province = 59
+					
+					color = { 52 117 101 }
+				}
+				b_falassarn_6 = {
+					province = 60
+					
+					color = { 52 117 101 }
+				}
+			}
+			c_falassarn_2 = {
+				color = { 253 245 254 }
+				
+				b_falassarn_7 = {
+					province = 61
+					
+					color = { 22 107 181 }
+				}
+				b_falassarn_8 = {
+					province = 62
+					
+					color = { 52 117 101 }
+				}
+				b_falassarn_9 = {
+					province = 63
+					
+					color = { 52 117 101 }
+				}
+			}
+			c_falassarn_3 = {
+				color = { 199 205 217 }
+				
+				b_falassarn_10 = {
+					province = 51
+					
+					color = { 22 107 181 }
+				}
+				b_falassarn_11 = {
+					province = 52
+					
+					color = { 52 117 101 }
+				}
+				b_falassarn_12 = {
+					province = 53
+					
+					color = { 52 117 101 }
+				}
+				b_falassarn_13 = {
+					province = 54
+					
+					color = { 52 117 101 }
+				}
+			}
+			c_falassarn_4 = {
+				color = { 222 236 254 }
+				
+				b_falassarn_14 = {
+					province = 47
+					
+					color = { 22 107 181 }
+				}
+				b_falassarn_15 = {
+					province = 48
+					
+					color = { 52 117 101 }
+				}
+				b_falassarn_16 = {
+					province = 49
+					
+					color = { 52 117 101 }
+				}
+				b_falassarn_17 = {
+					province = 50
+					
+					color = { 52 117 101 }
+				}
+			}
+		}
 		d_balar = {
-			color = { 42 127 201 }
+			color = { 216 233 227 }
 			
-			capital = c_balar_1 # Gran Canaria
+			capital = c_central_balar_1 # Gran Canaria
 			
-			c_balar_1 = {
-				color = { 22 107 181 }
+			c_central_balar_1 = {
+			color = { 207 214 208 }
 				
-				b_balar_1 = {
-					province = 3
+				b_central_balar_1 = {
+					province = 35
 					
 					color = { 22 107 181 }
 				}
-				b_balar_2 = {
-					province = 4
+				b_central_balar_2 = {
+					province = 36
+					
+					color = { 52 117 101 }
+				}
+				b_central_balar_3 = {
+					province = 37
+					
+					color = { 52 117 101 }
+				}
+				b_central_balar_4 = {
+					province = 38
 					
 					color = { 52 117 101 }
 				}
 			}
-			c_balar_2 = {
-				color = { 92 143 11 }
+			c_central_north_balar_1 = {
+				color = { 207 240 235 }
 				
-				b_balar_3 = {
-					province = 5
+				b_central_north_balar_1 = {
+					province = 39
 					
 					color = { 22 107 181 }
 				}
-				b_balar_4 = {
-					province = 6
+				b_central_north_balar_2 = {
+					province = 40
 					
 					color = { 52 117 101 }
 				}
-				b_balar_5 = {
-					province = 7
-					
-					color = { 52 117 101 }
-				}
-				b_balar_6 = {
-					province = 8
-					
-					color = { 22 107 181 }
-				}
-			}
-			c_balar_3 = {
-				color = { 122 10 81 }
-				
-				b_balar_7 = {
-					province = 9
-					
-					color = { 52 117 101 }
-				}
-				b_balar_8 = {
-					province = 10
-					
-					color = { 52 117 101 }
-				}
-				b_balar_9 = {
-					province = 11
+				b_central_north_balar_3 = {
+					province = 41
 					
 					color = { 52 117 101 }
 				}
 			}
-			c_balar_4 = {
-				color = { 122 10 81 }
+			c_central_south_balar_1 = {
+				color = { 222 239 222 }
 				
-				b_balar_10 = {
-					province = 12
+				b_central_south_balar_1 = {
+					province = 42
+					
+					color = { 22 107 181 }
+				}
+				b_central_south_balar_2 = {
+					province = 43
+					
+					color = { 52 117 101 }
+				}
+				b_central_south_balar_3 = {
+					province = 44
+					
+					color = { 52 117 101 }
+				}
+				b_central_south_balar_4 = {
+					province = 45
+					
+					color = { 52 117 101 }
+				}
+				b_central_south_balar_5 = {
+					province = 46
+					
+					color = { 52 117 101 }
+				}
+			}
+		}
+		d_west_balar = {
+			color = { 254 248 222 }
+			
+			capital = c_west_balar_1 # Gran Canaria
+			
+			c_west_balar_1 = {
+				color = { 254 254 222 }
+				
+				b_west_balar_1 = {
+					province = 24
+					
+					color = { 22 107 181 }
+				}
+				b_west_balar_2 = {
+					province = 25
+					
+					color = { 52 117 101 }
+				}
+				b_west_balar_3 = {
+					province = 26
+					
+					color = { 52 117 101 }
+				}
+				b_west_balar_4 = {
+					province = 27
+					
+					color = { 52 117 101 }
+				}
+			}
+			c_west_south_balar_1 = {
+				color = { 238 249 225 }
+				
+				b_west_south_balar_1 = {
+					province = 28
+					
+					color = { 22 107 181 }
+				}
+				b_west_south_balar_2 = {
+					province = 29
+					
+					color = { 52 117 101 }
+				}
+				b_west_south_balar_3 = {
+					province = 30
+					
+					color = { 52 117 101 }
+				}
+				b_west_south_balar_4 = {
+					province = 31
+					
+					color = { 52 117 101 }
+				}
+			}
+			c_west_north_balar_1 = {
+				color = { 234 221 197 }
+				
+				b_west_north_balar_1 = {
+					province = 32
+					
+					color = { 22 107 181 }
+				}
+				b_west_north_balar_2 = {
+					province = 33
+					
+					color = { 52 117 101 }
+				}
+				b_west_north_balar_3 = {
+					province = 34
 					
 					color = { 52 117 101 }
 				}
@@ -132,7 +343,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_sirion_1 = {
-					province = 13
+					province = 4
 					
 					color = { 22 107 181 }
 				}
@@ -164,7 +375,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_taur_im_duinath_1 = {
-					province = 14
+					province = 5
 					
 					color = { 22 107 181 }
 				}
@@ -196,7 +407,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_ossiriand_1 = {
-					province = 15
+					province = 6
 					
 					color = { 22 107 181 }
 				}
@@ -228,7 +439,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_falas_1 = {
-					province = 16
+					province = 7
 					
 					color = { 22 107 181 }
 				}
@@ -260,7 +471,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_nargothrond_1 = {
-					province = 17
+					province = 8
 					
 					color = { 22 107 181 }
 				}
@@ -292,7 +503,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_nevrast_1 = {
-					province = 18
+					province = 9
 					
 					color = { 22 107 181 }
 				}
@@ -324,7 +535,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_dor_lomin_1 = {
-					province = 19
+					province = 10
 					
 					color = { 22 107 181 }
 				}
@@ -356,7 +567,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_hithlum_1 = {
-					province = 20
+					province = 11
 					
 					color = { 22 107 181 }
 				}
@@ -388,7 +599,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_gondolin_1 = {
-					province = 21
+					province = 12
 					
 					color = { 22 107 181 }
 				}
@@ -420,7 +631,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_doriath_1 = {
-					province = 22
+					province = 13
 					
 					color = { 22 107 181 }
 				}
@@ -452,7 +663,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_dorthonion_1 = {
-					province = 23
+					province = 14
 					
 					color = { 22 107 181 }
 				}
@@ -484,7 +695,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_march_of_maedhros_1 = {
-					province = 24
+					province = 15
 					
 					color = { 22 107 181 }
 				}
@@ -516,7 +727,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_thargelion_1 = {
-					province = 25
+					province = 16
 					
 					color = { 22 107 181 }
 				}
@@ -548,7 +759,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_andram_1 = {
-					province = 26
+					province = 17
 					
 					color = { 22 107 181 }
 				}
@@ -580,7 +791,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_ard_galen_1 = {
-					province = 27
+					province = 18
 					
 					color = { 22 107 181 }
 				}
@@ -612,7 +823,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_angband_1 = {
-					province = 28
+					province = 19
 					
 					color = { 22 107 181 }
 				}
@@ -644,7 +855,7 @@ e_arda = {
 				color = { 22 107 181 }
 				
 				b_ered_engrin_1 = {
-					province = 29
+					province = 20
 					
 					color = { 22 107 181 }
 				}

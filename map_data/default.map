@@ -22,7 +22,7 @@ sea_zones = LIST { 2 } #French & Iberian atlantic coasts
 ###############
 # MAJOR RIVERS
 ###############
-river_provinces = LIST { 30 }
+river_provinces = LIST { 3 }
 
 ########
 # LAKES
