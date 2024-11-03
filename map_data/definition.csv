@@ -10,7 +10,7 @@
 9;112;33;143;nevrast;x;
 10;92;143;33;dor_lomin;x;
 11;33;40;143;hithlum;x;
-12;39;208;208;gondolin;x;
+12;4;57;237;gondolin;x;
 13;92;247;15;doriath;x;
 14;172;155;187;dorthonion;x;
 15;208;43;39;march_of_maedhros;x;
@@ -76,4 +76,9 @@
 62;19;194;146;east_north_balar_2;x;
 63;193;186;155;east_north_balar_3;x;
 
+64;62;200;81;tumladen;x;
 
+65;85;165;63;gondolin_north;x;
+66;50;149;212;gondolin_east;x;
+67;138;27;87;gondolin_south;x;
+68;50;122;212;gondolin_west;x;

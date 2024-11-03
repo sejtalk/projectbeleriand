@@ -140,6 +140,11 @@ e_arda = {
 					
 					color = { 52 117 101 }
 				}
+				b_central_south_balar_5 = {
+					province = 46
+					
+					color = { 52 117 101 }
+				}
 			}
 			c_falassarn_4 = {
 				color = { 222 236 254 }
@@ -166,11 +171,87 @@ e_arda = {
 				}
 			}
 		}
-		d_balar = {
-			color = { 216 233 227 }
+		d_west_balar = {
+			color = { 254 248 222 }
 			
-			capital = c_central_balar_1 # Gran Canaria
+			capital = c_west_balar_1 # Gran Canaria
 			
+			c_west_balar_1 = {
+				color = { 254 254 222 }
+				
+				b_west_balar_1 = {
+					province = 24
+					
+					color = { 22 107 181 }
+				}
+				b_west_balar_3 = {
+					province = 26
+					
+					color = { 52 117 101 }
+				}
+				b_west_balar_4 = {
+					province = 27
+					
+					color = { 52 117 101 }
+				}
+			}
+			c_west_south_balar_1 = {
+				color = { 238 249 225 }
+				
+				b_west_south_balar_1 = {
+					province = 28
+					
+					color = { 22 107 181 }
+				}
+				b_west_south_balar_3 = {
+					province = 30
+					
+					color = { 52 117 101 }
+				}
+				b_west_balar_2 = {
+					province = 25
+					
+					color = { 52 117 101 }
+				}
+			}
+			c_west_north_balar_1 = {
+				color = { 234 221 197 }
+				
+				b_west_north_balar_1 = {
+					province = 32
+					
+					color = { 22 107 181 }
+				}
+				b_west_north_balar_2 = {
+					province = 33
+					
+					color = { 52 117 101 }
+				}
+				b_west_north_balar_3 = {
+					province = 34
+					
+					color = { 52 117 101 }
+				}
+			}
+			c_west_south_balar_coast = {
+				color = { 207 214 208 }
+				
+				b_west_south_balar_2 = {
+					province = 29
+					
+					color = { 52 117 101 }
+				}
+				b_west_south_balar_4 = {
+					province = 31
+					
+					color = { 52 117 101 }
+				}
+				b_central_south_balar_3 = {
+					province = 44
+					
+					color = { 52 117 101 }
+				}
+			}
 			c_central_balar_1 = {
 			color = { 207 214 208 }
 				
@@ -227,95 +308,14 @@ e_arda = {
 					
 					color = { 52 117 101 }
 				}
-				b_central_south_balar_3 = {
-					province = 44
-					
-					color = { 52 117 101 }
-				}
+				
 				b_central_south_balar_4 = {
 					province = 45
 					
 					color = { 52 117 101 }
 				}
-				b_central_south_balar_5 = {
-					province = 46
-					
-					color = { 52 117 101 }
-				}
-			}
-		}
-		d_west_balar = {
-			color = { 254 248 222 }
-			
-			capital = c_west_balar_1 # Gran Canaria
-			
-			c_west_balar_1 = {
-				color = { 254 254 222 }
 				
-				b_west_balar_1 = {
-					province = 24
-					
-					color = { 22 107 181 }
-				}
-				b_west_balar_2 = {
-					province = 25
-					
-					color = { 52 117 101 }
-				}
-				b_west_balar_3 = {
-					province = 26
-					
-					color = { 52 117 101 }
-				}
-				b_west_balar_4 = {
-					province = 27
-					
-					color = { 52 117 101 }
-				}
-			}
-			c_west_south_balar_1 = {
-				color = { 238 249 225 }
-				
-				b_west_south_balar_1 = {
-					province = 28
-					
-					color = { 22 107 181 }
-				}
-				b_west_south_balar_2 = {
-					province = 29
-					
-					color = { 52 117 101 }
-				}
-				b_west_south_balar_3 = {
-					province = 30
-					
-					color = { 52 117 101 }
-				}
-				b_west_south_balar_4 = {
-					province = 31
-					
-					color = { 52 117 101 }
-				}
-			}
-			c_west_north_balar_1 = {
-				color = { 234 221 197 }
-				
-				b_west_north_balar_1 = {
-					province = 32
-					
-					color = { 22 107 181 }
-				}
-				b_west_north_balar_2 = {
-					province = 33
-					
-					color = { 52 117 101 }
-				}
-				b_west_north_balar_3 = {
-					province = 34
-					
-					color = { 52 117 101 }
-				}
-			}
+			}			
 		}
 	}
 	k_sirion = {
@@ -577,7 +577,7 @@ e_arda = {
 	k_gondolin = {
 		color = { 196 36 18 }
 		
-		capital = c_gondolin_1 # Canarias
+		capital = c_gondolin_north # Canarias
 		
 		ai_primary_priority = {
 			if = {
@@ -595,11 +595,53 @@ e_arda = {
 			
 			capital = c_gondolin_1 # Gran Canaria
 			
-			c_gondolin_1 = {
+			c_gondolin_north = {
 				color = { 22 107 181 }
 				
-				b_gondolin_1 = {
-					province = 12
+				b_gondolin_north = {
+					province = 65
+					
+					color = { 22 107 181 }
+				}
+			}
+			c_gondolin_east = {
+				color = { 22 107 181 }
+				
+				b_gondolin_east = {
+					province = 66
+					
+					color = { 22 107 181 }
+				}
+			}
+			c_gondolin_south = {
+				color = { 22 107 181 }
+				
+				b_gondolin_south = {
+					province = 67
+					
+					color = { 22 107 181 }
+				}
+			}
+			c_gondolin_west = {
+				color = { 22 107 181 }
+				
+				b_gondolin_west = {
+					province = 68
+					
+					color = { 22 107 181 }
+				}
+			}
+		}
+		d_tumladen = {
+			color = { 42 127 201 }
+			
+			capital = c_gondolin_1 # Gran Canaria
+			
+			c_tumladen = {
+				color = { 22 107 181 }
+				
+				b_tumladen_1 = {
+					province = 64
 					
 					color = { 22 107 181 }
 				}

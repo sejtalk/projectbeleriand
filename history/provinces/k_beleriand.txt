@@ -1,36 +1,303 @@
 #k_maghreb
 ##d_canarias ###################################
 ###c_canarias
-3 = {		#GRAN CANARIA
-	culture = baranis
-	religion = west_african_pagan
+4 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
 	holding = tribal_holding
 }
-4 = {		#GRAN CANARIA
-	holding = none
-}
 5 = {		#GRAN CANARIA
-	culture = baranis
-	religion = west_african_pagan
+	culture = finnish
+	religion = finnish_pagan
 	holding = tribal_holding
 }
 6 = {		#GRAN CANARIA
-	holding = none
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
 }
 7 = {		#GRAN CANARIA
-	holding = none
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
 }
 8 = {		#GRAN CANARIA
-	holding = none
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
 }
 9 = {		#GRAN CANARIA
-	culture = baranis
-	religion = west_african_pagan
+	culture = finnish
+	religion = finnish_pagan
 	holding = tribal_holding
 }
 10 = {		#GRAN CANARIA
-	holding = none
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
 }
 11 = {		#GRAN CANARIA
-	holding = none
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+12 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+13 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+14 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+15 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+16 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+17 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+18 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+19 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+20 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+21 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+22 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+23 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+24 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+25 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+26 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+27 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+28 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+29 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+30 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+31 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+32 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+33 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+34 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+35 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+36 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+37 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+38 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+39 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+40 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+41 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+42 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+43 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+44 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+45 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+46 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+47 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+48 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+49 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+50 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+51 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+52 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+53 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+54 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+55 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+56 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+57 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+58 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+59 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+60 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+61 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+62 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
+}
+63 = {		#GRAN CANARIA
+	culture = finnish
+	religion = finnish_pagan
+	holding = tribal_holding
 }
